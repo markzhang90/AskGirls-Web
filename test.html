@@ -1,0 +1,356 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pretty Ui Kit Flat Bootstarp Resposive Website Template| Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<style type="text/css">@import url("css/style.css");</style>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pretty Ui Kit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="js/jquery.easydropdown.js"></script>
+<script src="js/jquery.qty.js"></script>
+<!-- start price_bar  -->	
+<link href="css/jquery.nouislider.css" rel="stylesheet">
+<script src="js/jquery.nouislider.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/fd-slider.css">
+  <script type="text/javascript" src="js/fd-slider.js"></script>
+  
+<link type="text/css" rel="stylesheet" href="css/easy-responsive-tabs.css" />
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion           
+            width: 'auto', //auto or any width like 600px
+            fit: true,   // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        $('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="top-grid">
+			<div class="top-left-grid">
+				<ul>
+					<li><a class="active" href="#"><i class="home"></i></a></li>
+					<li><a href="#"><i class="news"></i></a></li>
+					<li><a href="#"><i class="photos"></i></a></li>
+					<li><a href="#"><i class="bag"></i></a></li>
+					<li><a href="#"><i class="settings"></i></a></li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<div id = "login">
+			<div class="top-right-grid">
+				<div class="search-box">
+                    <div> 
+                        <input type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User Name';}">
+                        <input type="submit" class ="go" value>
+	                </div> 
+	            </div>
+				<div class="search-box">
+                    <div> 
+                        <input type="text" class="text" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                        <input type="submit" class ="go" value>
+	                </div> 
+	            </div>
+			</div>
+			<div class="top-right-grid-button">
+				<div> 
+                    <input type="button" class="loginbuton" value="Login">
+	            </div> 
+	        </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="middle-grids">
+			<div class="col-md-8">
+				<div class="buttons">
+					<div class="bottons_row_1">
+						<ul>
+							<li class="large"><input type="button" value="Large Button"></li>
+							<li class="medium"><input type="button" value="Medium"></li>
+							<li class="small"><input type="button" value="Small"></li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+					<div class="bottons_row_1">
+						<ul class="buttons">
+							<li class="large red"><input type="button" value="Large Button"></li>
+							<li class="medium red"><input type="button" value="Medium"></li>
+							<li class="small red"><input type="button" value="Small"></li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+				</div>
+				<div class="user_desc">
+					<div class="user_menu">
+						<div class="user_head">
+							<img src="images/user_pic.png" alt="" />
+							<h3>Jane Doe</h3>
+							<p>Administrator</p>
+							<div class="clearfix"></div>
+						</div>
+						<div class="user_list">
+							<ul>   
+								<li><a href="#">Statistics</a></li>
+								<li><a class="active" href="#">Profile</a></li>
+								<li><a href="#">Calendar</a></li>
+								<li><a href="#">Messages</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="user_desc_right">
+						<div class="user_beat">
+							<div class="heart text-center">
+								<i class="heart_icon"></i>
+								<input type='text' name='quantity' value='51' class='qty' />	
+							</div>
+							<div class="incr_decr text-center">
+								<div class="plus">
+									<input type='button' value='' class='qtyplus' field='quantity' />
+								</div>
+								<div class="minus">
+									 <input type='button' value='' class='qtyminus' field='quantity' />
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="ribbons text-center">
+							<div class="ribbon-wrapper1">
+		<div class="ribbon-front1">
+			<!-- ribbon text goes here -->
+		</div>
+		<div class="ribbon-edge-topleft1"></div>
+		<div class="ribbon-edge-topright1"></div>
+		<div class="ribbon-edge-bottomleft1"></div>
+		<div class="ribbon-edge-bottomright1"></div>
+		<div class="ribbon-back-left1"></div>
+		<div class="ribbon-back-right1"></div>
+	</div>
+
+							<div class="ribbon-wrapper">
+		<div class="ribbon-front">
+			<!-- ribbon text goes here -->
+		</div>
+		<div class="ribbon-edge-topleft2"></div>
+		<div class="ribbon-edge-topleft"></div>
+		<div class="ribbon-edge-topright"></div>
+		<div class="ribbon-edge-bottomleft"></div>
+		<div class="ribbon-edge-bottomright"></div>
+		<div class="ribbon-back-left"></div>
+		<div class="ribbon-back-left2"></div>
+		<div class="ribbon-back-right"></div>
+	</div>
+
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-4 span_middle">
+				<div class="middle-right-grid">
+					<div class="blog">
+						
+						<div class="blog-info">
+							<h4>Lorem Ipsum Dolor Sit</h4>
+							<label>26 November<a href="#">12 Comments</a></label>
+							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
+							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
+							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...</p>
+						</div>
+					</div>
+					<div class="content">
+						<div class="drop_down">
+							<div class="dropdown-button">           			
+								<select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
+								<option value="0">Dropdown</option>	
+								<option value="1">list-1</option>
+								<option value="2">list-2</option>
+								<option value="3">list-3</option>
+								<option value="4">list-4</option>
+								<option value="5">list-5</option>
+								<option value="6">list-6</option>
+							  </select>
+							</div>
+							<div class="num">
+								<li>
+									<input type="number" class="text_box" type="text" value="56" min="1" />							
+								</li>
+					</div>
+							</div>
+							<div class="clearfix"></div>
+						<div class="switches">
+							<div class="up">
+								<i class="up_icon"></i>
+							</div>
+							<div class="form-elements">
+					  		<ul>
+					  			<li>	
+					  				<div class="checkbox-toggle"><label class="toggle"><input type="checkbox" name="checkbox-toggle" checked><i></i></label></div>
+					  				<div class="checkbox-toggle"><label class="toggle"><input type="checkbox" name="checkbox-toggle" ><i></i></label></div>
+								</li>
+							    <li>						
+							    	 <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio" checked=""><i></i></label> </div></div>
+                              		 <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i></label> </div></div>
+									  <div class="check_box"> <div class="radio"> <label><input type="radio" name="radio"><i></i></label> </div></div>
+							    	 <div class="clearfix"></div>
+									<div class="check_box"><label class="checkbox"><input type="checkbox" name="checkbox" checked="" ><i></i></label></div>
+                              		<div class="check_box"><label class="checkbox"><input type="checkbox" name="checkbox"  ><i></i></label></div>
+									<div class="check_box"><label class="checkbox"><input type="checkbox" name="checkbox"  ><i></i></label></div>
+							    </li>
+					  		</ul>
+					  	</div>
+						<div class="clearfix"></div>
+						</div>
+						<div class="file">
+							 <input type="text" class="text" value="pretty-design.psd" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'pretty-design.psd';}">
+							 <input type="submit" value="Choose file..">
+							 <input type="file" value="Choose file..">
+						</div>
+						<div class="tabs">
+                           <!--Horizontal Tab-->
+        <div id="horizontalTab">
+            <ul class="resp-tabs-list">
+                <li>Selected</li>
+                <li>Tab</li>
+                <li>Tab</li>
+            </ul>
+            <div class="resp-tabs-container">
+                <div>
+                   
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                   
+                </div>
+            </div>
+        </div>
+					</div>
+				</div>
+						</div>
+				<div class="clearfix"></div>
+		</div>
+		<div class="bottom-grids">
+			<div class="bottom-grid-left">
+			<div id="preview"></div>
+			  <form id="opts">
+				<input type="text" name="lines" min="5" max="16" step="2" value="12"><br>
+				<input type="text" name="length" min="0" max="40" value="20"><br>
+			  </form>
+				<div class="scrolling">
+				 <div id="slider"></div>
+				<script>
+				$("#slider").noUiSlider({
+					start: [20, 80],
+					connect: true,
+					range: {
+						'min': 0,
+						'max': 100
+					}
+				});
+				</script>
+				</div>
+				<div class="scrolling">
+				 <div id="slider1"></div>
+				<script>
+				$("#slider1").noUiSlider({
+					start: [20, 80],
+					connect: true,
+					range: {
+						'min': 0,
+						'max': 100
+					}
+				});
+				</script>
+				</div>
+				<div class="temperature">
+					<div class="temp_top">
+						<h3><i class="temp"></i>28°</h3>
+					</div>
+					<div class="temp_bottom">
+						<div class="temp_bottom_left text-center">
+							<i class="u1"></i>
+							<h4>11</h4>
+							<p>mph</p>
+						</div>
+						<div class="temp_bottom_right text-center">
+							<i class="r1"></i>
+							<h4>2</h4>
+							<p>mm</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-grid-right">
+				<div class="video">
+					<iframe src="https://player.vimeo.com/video/38562069?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			<div class="shopping-list">
+				<ul>
+					<li>
+						<a href="#">1. Shopping Cart</a>
+						<span class="front"><img src="images/front1.png" alt="" /></span>
+						<span class="front1"><img src="images/back.png" alt="" /></span>
+					</li>
+					<li class="active">
+						<a class="active" href="#">2. Your Details</a>
+						<span class="front"><img src="images/back.png" alt="" /></span>
+					</li>
+					<li>
+						<a href="#">3. Payment</a>
+						<span class="front"><img src="images/front.png" alt="" /></span>
+						<span class="front1"><img src="images/back.png" alt="" /></span>
+					</li>
+					<li>
+						<a href="#">4. Confirmation</a>
+					</li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="copyright text-center">
+					<p>Copyright &copy; 2015 All rights reserved | Template by  <a href="http://w3layouts.com">  W3layouts</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
