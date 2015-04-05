@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.onload = function() {
 	getList(0, 1);
 };
@@ -62,10 +63,20 @@ var json = '{"option":"' + option + '" , "pageNum":"' + page + '"}';
 $.ajax({
     type: 'POST',
     url: '../Askgirls_Web_ListqueryWithOptions.php',
+=======
+function getList(option){
+
+var json = '{"option":"' + option + '"}';
+
+$.ajax({
+    type: 'POST',
+    url: '../Askgirls_ListqueryWithOptions.php',
+>>>>>>> origin/master
     contentType: 'application/json; charset=utf-8',
     data: json,
     dataType: 'json',
     cache: false,
+<<<<<<< HEAD
     beforeSend:function(){ 
 //        $("#span_middle").append("<h2 id='loading'>loading...</h2>");//显示加载动画 
     }, 
@@ -80,11 +91,24 @@ $.ajax({
 });
 }
 
+=======
+    success: AjaxSucceeded,
+    error: AjaxFailed
+});
+}
+function AjaxSucceeded(result) {
+    removeList();
+    changeListContent(result)
+}
+>>>>>>> origin/master
 function AjaxFailed(result) {
     alert(result.status + ' ' + result.statusText);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 function removeList() {
 	var myNode = document.getElementById("mid-post-area");
     while (myNode.firstChild) {
@@ -92,6 +116,7 @@ function removeList() {
     }
 }
 
+<<<<<<< HEAD
 function changeListContent(json, pageNum){
 	total = json.total; 
     pageSize = json.pageSize;  
@@ -102,6 +127,12 @@ function changeListContent(json, pageNum){
 	var lists = json.list
 	for (i = 0; i < lists.length; i++) { 
 		one_bolg += "<div id = \"span_middle\" ></div><div class=\"blog\"><div class=\"blog-info\">" +
+=======
+function changeListContent(lists){
+	var one_bolg = "";
+	for (i = 0; i < lists.length; i++) { 
+		one_bolg += "<div class=\"blog\"><div class=\"blog-info\">" +
+>>>>>>> origin/master
 				"<div class=\"blog-top\"><img src=\""+ lists[i]["icon_image"] +"\" alt=\"\" />" +
 				"<h4>"+lists[i]["user_nickname"]+"</h4>" +
 				"<label>"+lists[i]["ct"]+" Comments</label></div>" +
@@ -109,6 +140,7 @@ function changeListContent(json, pageNum){
 	}
 	
 	document.getElementById("mid-post-area").innerHTML = one_bolg;
+<<<<<<< HEAD
 }
 
 function removePageList(){
@@ -167,3 +199,6 @@ function getPageBar(){
 } 
 
 
+=======
+}
+>>>>>>> origin/master
