@@ -73,39 +73,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"></div>
 		</div>
 		<div class="middle-grids">
-<<<<<<< HEAD:index.php
 		<div  class="col-md-8 span_middle">
 				<div id="mid-post-area" class="middle-right-grid">
 				<div id = "span_middle" ></div>	
-=======
-		<div class="col-md-8 span_middle">
-				<div id="mid-post-area" class="middle-right-grid">
-					
->>>>>>> origin/master:index.php
 				
 				
 					<div class="blog" >
 						
 						
 						
-<<<<<<< HEAD:index.php
-=======
-						<div class="blog-info">
-							<div class="blog-top">
-							
-							<img src="images/user_pic.jpg" alt="" />
-							
-							<h4>Lorem Ipsum Dolor Sit</h4>
-							<label>26 Comments</label>
-							</div>
-						<div class="blog-bot">
-							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...</p>
-						</div>	
-						</div>
-						
->>>>>>> origin/master:index.php
 					</div>
 				
 				
@@ -115,16 +91,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"></div>
 				
 			<!-- Begin button bar -->
-<<<<<<< HEAD:index.php
                 <ul class="button_bar" id="button_bar">
                     
-=======
-                <ul class="button_bar">
-                    <li><a class="hvr-ripple-out button3" href="#">1</a></li>
-                    <li><a class="hvr-ripple-out button3" href="#">2</a></li>
-                    <li><a class="hvr-ripple-out button3" href="#">3</a></li>
-                    <li><a class="hvr-ripple-out button3" href="#">last</a></li>
->>>>>>> origin/master:index.php
                 </ul>
                 <!-- End button bar -->	
 		</div>
@@ -167,53 +135,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/classie.js"></script>
 <script src="js/ajax.js"></script>
 		<script>
-<<<<<<< HEAD:index.php
 			
 						
-=======
-			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-				showLeftPush = document.getElementById( 'showLeftPush' ),
-				body = document.body;
-			document.getElementById( 'menu0' ).onclick = function() {
-				document.getElementById( 'chooseOption' ).value = 0;
-				getList(document.getElementById( 'chooseOption' ).value);
-				
-			}
-			document.getElementById( 'menu1' ).onclick = function() {
-				document.getElementById( 'chooseOption' ).value = 1;
-				getList(document.getElementById( 'chooseOption' ).value);
-				
-			}
-			document.getElementById( 'menu2' ).onclick = function() {
-				document.getElementById( 'chooseOption' ).value = 2;
-				getList(document.getElementById( 'chooseOption' ).value);
-				
-			}
-			document.getElementById( 'menu3' ).onclick = function() {
-				document.getElementById( 'chooseOption' ).value = 3;
-				getList(document.getElementById( 'chooseOption' ).value);
-				
-			}
-			document.getElementById( 'menu4' ).onclick = function() {
-				document.getElementById( 'chooseOption' ).value = 4;
-				getList(document.getElementById( 'chooseOption' ).value);
-				
-			}
-			document.getElementById( 'menu5' ).onclick = function() {
-				document.getElementById( 'chooseOption' ).value = 5;
-				getList(document.getElementById( 'chooseOption' ).value);
-				
-				
-			}
-			showLeftPush.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( body, 'cbp-spmenu-push-toright' );
-				classie.toggle( menuLeft, 'cbp-spmenu-open' );
-				
-			};
-			
-			
->>>>>>> origin/master:index.php
 
 		</script>
 </body>
