@@ -5,34 +5,40 @@ a {
 a:hover {
 	text-decoration: none;
 }
+a:active {
+	text-decoration: none;
+}
 .cbp-spmenu {
-	background: #47a3da;
+	background: #E371B7;
 	position: fixed;
 }
 
 .cbp-spmenu h3 {
-	color: #afdefa;
+	color: #fff;
 	font-size: 1.9em;
 	padding: 20px;
 	margin: 0;
 	font-weight: 300;
-	background: #0d77b6;
+	background: #d42875;
 }
 
 .cbp-spmenu a {
 	display: block;
+	text-decoration: none;
 	color: #fff;
 	font-size: 1.1em;
 	font-weight: 300;
 }
 
 .cbp-spmenu a:hover {
-	background: #258ecd;
+	text-decoration: none;
+	background: #D90777;
 }
 
 .cbp-spmenu a:active {
-	background: #afdefa;
-	color: #47a3da;
+	text-decoration: none;
+	background: #ED98C5;
+	color: #fff;
 }
 
 /* Orientation-dependent styles for the content of the menu */
@@ -45,7 +51,7 @@ a:hover {
 }
 
 .cbp-spmenu-vertical a {
-	border-bottom: 1px solid #258ecd;
+	border-bottom: 1px solid #F531AA;
 	padding: 1em;
 }
 

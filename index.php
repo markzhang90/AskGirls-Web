@@ -1,9 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,12 +26,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body class="cbp-spmenu-push">
 		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
 			<h3>Menu</h3>
-			<a href="#">Celery seakale</a>
-			<a href="#">Dulse daikon</a>
-			<a href="#">Zucchini garlic</a>
-			<a href="#">Catsear azuki bean</a>
-			<a href="#">Dandelion bunya</a>
-			<a href="#">Rutabaga</a>
+			<a id="menu0"  href="#">All Posts</a>
+			<a id="menu1"  href="#">Meeting Girls</a>
+			<a id="menu2"  href="#">Hanging Out</a>
+			<a id="menu3"  href="#">Dating</a>
+			<a id="menu4"  href="#">Engage</a>
+			<a id="menu5"  href="#">Marriage</a>
 		</nav>
 	<div class="container">
 		<div class="top-grid">
@@ -47,7 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a id="" href="#"><i class="news"></i></a></li>
 					<li><a id="" href="#"><i class="photos"></i></a></li>
 					<li><a id="" href="#"><i class="bag"></i></a></li>
-					<li><a id="" href="#"><i class="settings"></i></a></li>
+					<li><a id="test" href="#"><i class="settings"></i></a></li>
 					<div class="clearfix"></div>
 				</ul>
 			</div>
@@ -79,49 +73,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"></div>
 		</div>
 		<div class="middle-grids">
-		<div class="col-md-8 span_middle">
-				<div class="middle-right-grid">
-					<div class="blog">
+		<div  class="col-md-8 span_middle">
+				<div id="mid-post-area" class="middle-right-grid">
+				<div id = "span_middle" ></div>	
+				
+				
+					<div class="blog" >
 						
-						<div class="blog-info">
-							
-							<h4>Lorem Ipsum Dolor Sit</h4>
-							<label>26 November<a href="#">12 Comments</a></label>
-							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...</p>
-						</div>
+						
+						
 					</div>
 				
 				
-					<div class="blog">
-						
-						<div class="blog-info">
-							
-							<h4>Lorem Ipsum Dolor Sit</h4>
-							<label>26 November<a href="#">12 Comments</a></label>
-							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...</p>
-						</div>
-					</div>
-				
-				
-					<div class="blog">
-						
-						<div class="blog-info">
-							
-							<h4>Lorem Ipsum Dolor Sit</h4>
-							<label>26 November<a href="#">12 Comments</a></label>
-							<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...
-							Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit...</p>
-						</div>
-					</div>
+					
 				
 				</div>
 				<div class="clearfix"></div>
 				
+			<!-- Begin button bar -->
+                <ul class="button_bar" id="button_bar">
+                    
+                </ul>
+                <!-- End button bar -->	
 		</div>
 		<div class="col-md-4">
 			<div class="middle-right-grid">
@@ -129,7 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 				<div class="temperature">
 					<div class="temp_top">
-						<h3><i class="temp"></i>28Â°</h3>
+						<h3><i class="temp"></i>28C°</h3>
 					</div>
 					<div class="temp_bottom">
 						<div class="temp_bottom_left text-center">
@@ -150,19 +123,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"></div>
 		</div>
 	</div>
+</div>
+<input type="hidden" id="chooseOption" value="0">
+<div class="footer">
+		<div class="container">
+			<div class="copyright text-center">
+					<p>Copyright &copy; 2015 All rights reserved | Developed by  <a href="http://markgogogo.com">  Yiyuan Zhang</a></p>
+			</div>
+		</div>
+</div>
 <script src="js/classie.js"></script>
+<script src="js/ajax.js"></script>
 		<script>
-			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-				showLeftPush = document.getElementById( 'showLeftPush' ),
-				body = document.body;
-
-			showLeftPush.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( body, 'cbp-spmenu-push-toright' );
-				classie.toggle( menuLeft, 'cbp-spmenu-open' );
-				
-			};
-
+			
+						
 
 		</script>
 </body>
