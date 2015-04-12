@@ -126,6 +126,39 @@ i.settings {
 	background: url('../images/img-sprite.png') no-repeat -320px 0px;
 	display:inline-block;
 }
+.login-index {
+	float: left;
+	width: 29%;
+	margin-left:3%;
+
+}
+.index_user_head {
+	background:#d42875;
+	border-radius: 4px;
+	padding:2.0em;
+}
+.index_user_head img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 1em;
+	margin-top: 0.3em;
+}
+.index_user_head h3 {
+	width:240px;
+	color:#fff;
+	font-size:1.8em;
+	margin-top:15px;
+	font-weight:200;
+}
+.index_user_head p {
+	color:#fff;
+	font-size:1.1em;
+	font-style:italic;
+	margin-top:15px;
+	font-weight:400;
+}
 .top-left-grid ul li:hover i.settings {
 	background: url('../images/img-sprite.png') no-repeat -320px -80px;
 }
